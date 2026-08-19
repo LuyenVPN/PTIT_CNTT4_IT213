@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bai3.service.OrderServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-05-27T17:59:02.469Z" hostname="LUYENDV" time="0.043">
+  <properties/>
+  <testcase name="getOrderById_NotFound_ThrowException()" classname="com.bai3.service.OrderServiceTest" time="0.015"/>
+  <testcase name="getAllOrders_ReturnNonEmptyList()" classname="com.bai3.service.OrderServiceTest" time="0.002"/>
+  <testcase name="addOrder_Success()" classname="com.bai3.service.OrderServiceTest" time="0.002"/>
+  <testcase name="updateOrder_Success()" classname="com.bai3.service.OrderServiceTest" time="0.003"/>
+  <testcase name="deleteOrder_RemovesElement()" classname="com.bai3.service.OrderServiceTest" time="0.002"/>
+  <testcase name="getOrderById_Found()" classname="com.bai3.service.OrderServiceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: bai4
+
+  ai:
+    openai:
+      api-key: ${OPEN_ROUTER_API_KEY}
+      base-url: ${OPEN_ROUTER_BASE_URL}
+      chat:
+        options:
+          model: ${OPEN_ROUTER_MODEL}
+          temperature: 0.3
+          max-tokens: 2000
