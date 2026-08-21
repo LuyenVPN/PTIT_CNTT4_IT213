@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: bai3
+
+  datasource:
+    url: jdbc:postgresql://aws-0-ap-northeast-1.pooler.supabase.com:6543/postgres?sslmode=require
+    username: postgres.hdxsxriwkjeiuynm
+    password: ${Luyen@28042006}
+    driver-class-name: org.postgresql.Driver
+
+  ai:
+    openai:
+      api-key: ${OPEN_ROUTER_API_KEY}
+      chat:
+        options:
+          model: gpt-4o-mini
+          temperature: 0.3
+
+    vectorstore:
+      pgvector:
+        initialize-schema: false
+        index-type: HNSW
+        distance-type: COSINE_DISTANCE
+        dimensions: 1536
+
+server:
+  port: 8080
+
+rag:
+  similarity-threshold: 0.75
+  top-k: 3
+
+logging:
+  level:
+    com.example.bai3: INFO
