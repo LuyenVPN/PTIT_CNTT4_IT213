@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: bai2
+
+logging:
+  level:
+    com.rikkei.retail.chunking: INFO
